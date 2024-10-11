@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Галерея</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+
+	<main>
+
+		<h2 class="section__title">Галерея 1</h2>
+		<h4 class="section__subtitle">flexbox</h4>
+		<section class="gallery">
+
+			<div class="gallery__title-wrapper">
+				<div class="container">
+					<h2 class="gallery__title">галерея проектов</h2>
+				</div>
+
+			</div>
+
+
+			<div class="gallery-slides">
+
+				<div class="gallery-slide gallery-slide--apartment gallery-slide--active">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="gallery-slide gallery-slide--livingroom">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект гостиной в ЖК Маяк</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery-slide gallery-slide--privatekitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Визуализация кухни-гостиной в частном доме</h3>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="gallery-slide gallery-slide--kitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="gallery__controls-wrapper">
+				<div class="container">
+					<div class="gallery__controls">
+						<button type="button" class="gallery__control-prev"></button>
+						<button type="button" class="gallery__control-next"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- gallery 2 -->
+		<h2 class="section__title">Галерея 2</h2>
+		<h4 class="section__subtitle">position: absolute</h4>
+		<section class="gallery">
+			<div class="gallery__title-wrapper">
+				<div class="container">
+					<h2 class="gallery__title">галерея проектов</h2>
+				</div>
+			</div>
+
+			<div class="gallery-slides2">
+
+				<div class="gallery-slide2 gallery-slide--apartment gallery-slide--active2">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery-slide2 gallery-slide--livingroom">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект гостиной в ЖК Маяк</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slide2 gallery-slide--privatekitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Визуализация кухни-гостиной в частном доме</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slide2 gallery-slide--kitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery__controls-wrapper--position">
+				<div class="container">
+					<div class="gallery__controls--position">
+						<button type="button" class="gallery__control-prev--position"></button>
+						<button type="button" class="gallery__control-next--position"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- gallery 3 -->
+		<h2 class="section__title">Галерея 3</h2>
+		<h4 class="section__subtitle">grid layout</h4>
+		<section class="gallery">
+			<div class="gallery__title-wrapper">
+				<div class="container">
+					<h2 class="gallery__title">галерея проектов</h2>
+				</div>
+			</div>
+
+			<div class="gallery-slides--grid">
+
+				<div class="gallery-slide--grid gallery-slide--apartment gallery-slide--active3">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="gallery-slide--grid gallery-slide--livingroom">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект гостиной в ЖК Маяк</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slide--grid gallery-slide--privatekitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Визуализация кухни-гостиной в частном доме</h3>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slide--grid gallery-slide--kitchen">
+					<div class="gallery-slide__content">
+						<div class="container">
+							<h3 class="gallery-slide__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery__controls-wrapper">
+				<div class="container">
+					<div class="gallery__controls--grid">
+						<button type="button" class="gallery__control-prev--grid"></button>
+						<button type="button" class="gallery__control-next--grid"></button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+	</main>
+
+
+
+	<script src="./js/gallery.js"></script>
+	<script src="./js/gallery2.js"></script>
+	<script src="./js/gallery3.js"></script>
+
+</body>
+
+</html>

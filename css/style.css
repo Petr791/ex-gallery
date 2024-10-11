@@ -1,0 +1,61 @@
+@import url('./gallery.css');
+*,
+html,
+body {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+    color: #121212;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li,
+span {
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+
+/*  */
+
+
+/* media queries */
+
+@media (max-width: 961px) {}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 0 12px;
+    }
+    h2 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
